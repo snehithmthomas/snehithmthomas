@@ -14,6 +14,24 @@
 
 # 🌟 FEATURED PROJECTS
 
+## ⚡ The Watts Divide — India Electricity Inequality Analysis
+[**GitHub Repo**](https://github.com/snehithmthomas/Electricity-India-Analysis)
+
+> End-to-end data science pipeline analysing electricity consumption & sales inequality across Indian states (2012–2021) — from raw government data to statistical hypothesis testing.
+
+### 🔥 What Makes It Stand Out
+| Feature | Standard EDA | This Project |
+| :--- | :---: | :---: |
+| 📊 Inequality Metric | ❌ Basic stats | ✅ Gini Coefficient + Lorenz Curve |
+| 🧹 Data Quality | ❌ Drop bad rows | ✅ 5 surgical anomaly fixes (LOCF, Interpolation, Epsilon) |
+| 🧪 Validation | ❌ None | ✅ 4 Hypothesis Tests (ANOVA, T-tests, Pearson) |
+| 🏛️ Data Source | Toy datasets | ✅ Official Ministry of Power datasets |
+| 🗺️ Coverage | Single metric | ✅ 9 sectors × 28 states × 9 years |
+
+**Tech Stack:** Python • Pandas • NumPy • Matplotlib • Seaborn • SciPy • Jupyter Notebook
+
+---
+
 ## 🎭 Face Recognition System
 [**GitHub Repo**](https://github.com/snehithmthomas/Face-Recognition)
 
@@ -49,10 +67,11 @@
 | Category | Technologies |
 | :--- | :--- |
 | **Languages** | Python, SQL, HTML |
-| **Data Science** | EDA, RFM Analysis, Customer Segmentation, Data Visualization |
+| **Data Science** | EDA, RFM Analysis, Customer Segmentation, Data Visualization, Inequality Analysis |
 | **AI / ML** | LSTM, K-Means Clustering, Face Recognition, Time Series Forecasting |
+| **Statistics** | Hypothesis Testing (ANOVA, T-tests, Pearson), Gini Coefficient, Lorenz Curves |
 | **Tools** | Power BI, Jupyter Notebook, GitHub, VS Code |
-| **Libraries** | Pandas, NumPy, Matplotlib, Scikit-learn, Prophet, TensorFlow/Keras |
+| **Libraries** | Pandas, NumPy, Matplotlib, Seaborn, Scikit-learn, Prophet, SciPy, TensorFlow/Keras |
 
 ---
 
@@ -67,6 +86,7 @@
 ### 📊 Data Analysis & Visualization
 | Project | Description | Tech Stack | Link |
 | :--- | :--- | :--- | :--- |
+| **⚡ Electricity Inequality** | Gini + Lorenz analysis of India's power distribution (2012–2021) | Python, SciPy | [View](https://github.com/snehithmthomas/Electricity-India-Analysis) |
 | **Superstore Analysis** | End-to-end EDA and visualization of retail data | Python, Pandas | [View](https://github.com/snehithmthomas/Superstore-Data-Analysis) |
 | **Customer Segmentation** | RFM analysis and K-Means clustering for retail | Python, K-Means | [View](https://github.com/snehithmthomas/Online-Retail-Customer-Segmentation) |
 | **Sales Forecasting** | Time series forecasting for Rossmann stores | Prophet, Python | [View](https://github.com/snehithmthomas/Sales-Forecasting-Pipeline-using-Prophet) |
